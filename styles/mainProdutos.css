@@ -3,9 +3,32 @@ main img{
     max-height: 500px;
 }
 
+.descricaoBolos{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20%;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.descricaoBolos h2{
+    color: #633d05;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.descricaoBolos p{
+    color: #633d05;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .conteudo{
     margin-top: -6px;
-    background: #ca4242;
+    background: #f16767;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,0 +1,35 @@
+main{
+    background: #f16767;
+}
+
+.pt1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 250px;
+}
+
+main section div img{
+    width: 400px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.descricao h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c2b2b;
+}
+
+.descricao p{
+    color: #2c2b2b;
+    font-size: 1.2rem;
+    max-width: 500px;
+    line-height: 1.5;
+    font-weight: 500;
+}
